@@ -1,0 +1,44 @@
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# MacOS / IDEs
+.DS_Store
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# -------------------------------------
+# PROJECT SPECIFIC - DO NOT PUSH TO GIT
+# -------------------------------------
+# Raw data and extracted keypoints
+dataraw/
+data/processed/
+
+# Trained Models weights
+models/saved_models/
+
+# Ignore large binary extensions to be safe
+*.npy
+*.pkl
+*.pth
+*.pt
+*.mp4
+*.mp3
+*.zip
+
+
+# Ignore temporary generated files during inference
+output_sign.mp4
+confusion_matrix.png
+speech_output.mp3
