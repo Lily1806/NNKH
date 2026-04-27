@@ -8,7 +8,7 @@ Hệ thống cung cấp một giải pháp toàn diện cho người câm điế
 
 ---
 
-## 📂 Tổ chức mã nguồn: Kiến trúc Model-View
+## Tổ chức mã nguồn: Kiến trúc Model-View
 
 Hệ thống được tổ chức với cấu hình logic module hoàn chỉnh:
 ```text
@@ -41,7 +41,7 @@ project_root/
 
 ---
 
-## 🚀 Hướng Dẫn Sử Dụng và Cài Đặt
+##  Hướng Dẫn Sử Dụng và Cài Đặt
 
 ### 1. Chuẩn Bị Môi Trường Cài Đặt
 Bảo đảm thiết bị có python từ 3.8 ~ 3.10
@@ -76,4 +76,4 @@ python inference.py
 ```
 
 ---
-> ⚠️ **Ghi chú tính tương thích:** Đối với service `text_to_sign.py` cần sử dụng `moviepy` -> Vui lòng cài `ffmpeg` trên local PC/Mac thông qua Terminal/Brew nếu Video Render gặp Warning Codec.
+> **Ghi chú tính tương thích:** Đối với service `text_to_sign.py` cần sử dụng `moviepy` -> Vui lòng cài `ffmpeg` trên local PC/Mac thông qua Terminal/Brew nếu Video Render gặp Warning Codec.

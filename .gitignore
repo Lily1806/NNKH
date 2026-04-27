@@ -38,6 +38,7 @@ models/saved_models/
 *.zip
 
 
+
 # Ignore temporary generated files during inference
 output_sign.mp4
 confusion_matrix.png
